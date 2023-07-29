@@ -1,4 +1,18 @@
-h1{
+
+/* Font Family */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+.black{
+    font-size: 50px;
+    color:black;
+}
+
+.black-bold{
     font-size: 3rem;
-    color:blueviolet;
+    color:black;
+    font-weight: bold;
 }
