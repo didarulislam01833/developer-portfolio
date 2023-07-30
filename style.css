@@ -1,18 +1,54 @@
-
 /* Font Family */
-body{
+body {
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 
 
 
-.black{
-    font-size: 50px;
-    color:black;
+.black {
+    font-size: 40px;
+    color: black;
 }
 
-.black-bold{
-    font-size: 3rem;
-    color:black;
+.black-bold {
+    font-size: 80px;
+    color: black;
     font-weight: bold;
+}
+
+.banner-para {
+    font-size: 30px;
+    color: gray;
+}
+
+section {
+    display: flex;
+}
+
+.half-width {
+    width: 50%;
+    padding-left: 5%;
+}
+
+.half-width img {
+    width: 100%;
+}
+
+.link-button {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 20px;
+    border: 0;
+    padding: 18px 35px;
+    height: 64px;
+    border-radius: 5px;
+    background: #FD6E0A;
+    text-decoration: none;
+
+}
+
+.top-banner {
+    background-image: url(images/developer.png);
+    background-repeat: no-repeat;
 }
